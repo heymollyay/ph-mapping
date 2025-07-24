@@ -1,13 +1,13 @@
+import os
 import customtkinter
 import tkinter as tk
+import openpyxl
+from tkinter import filedialog, ttk
 from src.config import NEW_PROJECT_TITLE, STICKY_NSEW, DEFAULT_PADX, DEFAULT_PADY
+from src.dataview import DataView
+
 
 class MapView(customtkinter.CTkFrame):
-    def __init__(self, master):
-        super().__init__(master)
-
-
-class DataView(customtkinter.CTkFrame):
     def __init__(self, master):
         super().__init__(master)
 
